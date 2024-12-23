@@ -1,3 +1,5 @@
+# Runtime is 4ms and beats 20%, memory is 12mb and beats 37%.
+
 class Solution(object):
     def longestCommonPrefix(self, strs):
 
