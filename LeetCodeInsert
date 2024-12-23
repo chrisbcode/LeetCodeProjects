@@ -1,3 +1,5 @@
+# Runtime is 0ms and beats 100%, memory is 12.57mb and beats 38%.
+
 class Solution(object):
     def searchInsert(self, nums, target):
         for i, x in enumerate(nums):
