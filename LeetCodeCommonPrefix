@@ -1,0 +1,25 @@
+class Solution(object):
+    def longestCommonPrefix(self, strs):
+
+        smol = min(strs, key = len)
+        lcpLen = 0
+        lcp = True
+
+        for i in range(len(smol)):
+
+            for j, x in enumerate(strs):
+                if smol[i] == x[i]:
+                    lcp = True
+                else:
+                    lcp  = False
+                    break   
+            if lcp == True:
+                lcpLen += 1
+            elif lcp == False:
+                break
+
+        x = strs[0]
+        if lcpLen > 0:
+            return x[0:lcpLen]
+        else:
+            return ""
