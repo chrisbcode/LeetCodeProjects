@@ -1,5 +1,4 @@
-# Written by Chris B
-# LeetCode TwoSum submission
+# Runtime is 2105ms and beats 28%, memory is 12mb and beats 53%.
 
 class Solution(object):
     def twoSum(self, nums, target):
